@@ -1,0 +1,7 @@
+{% extends 'flatpages/default.html' %} <!-- Позволяет использовать блоки -->
+<!-- Здесь появляется весь котд из default, но с условием, что мы можем изменять блоки. -->
+
+{% block content %}
+{{ flatpage.content }}
+<hr>
+{% endblock content %}
